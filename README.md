@@ -6,7 +6,7 @@ Grande agradecimento a [André Gomes](https://github.com/andrelugomes/), pelos v
 
 ## Funcionalidades
 
-Para utilizar o que foi desenvolvido ao longo do projeto, deve-se entrar no endereço `https://radiant-everglades-31415.herokuapp.com/` e utilizar alguma das funções desenvolvidas,
+Para utilizar o que foi desenvolvido ao longo do projeto, deve-se acessar `https://radiant-everglades-31415.herokuapp.com/` e utilizar alguma das funções desenvolvidas,
 sendo elas:
 #### Consulta de todos os países, estados ou cidades contidos na database - bastando adicionar o comando `countries`, `states` ou `cities`, respectivamente, ao fim do endereço;
 #### Cálculo de distância entre cidades, a partir de seus Códigos de Municípios TOM-SERPRO, disponíveis na consulta de cidades no campo *cod_tom*. Existem 3 alternativas para
@@ -17,3 +17,4 @@ o cálculo da distância, e para qualquer uma delas, deve-se adicionar `distance
 
 Obs.: *IdCidade* representa o *cod_tom* da cidade que deseja-se inserir e *Unidade* define se o resultado exibido será em metros, kilômetros ou milhas, inserindo *METERS*,
 *KILOMETERS* ou *MILES*, para os respectivos resultados.
+Exemplo de uso: `https://radiant-everglades-31415.herokuapp.com/distances/by-math?from=4321&to=1234&unit=METERS`
